@@ -1,5 +1,9 @@
 /* text styles */
 
+body{
+    background-color: beige;
+}
+
 .page-title {
     font-family: cursive;
     font-size: 40px;
@@ -11,9 +15,21 @@
     font-family: Papyrus;
     font-size: 30px;
     color: chocolate;
-    width: 200px;
+    width: 400px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 30px;
+}
+
+.home1 {
+    margin-left: 50px;
+}
+
+.home2 {
+    margin-left: 100px;
+}
+
+.home3 {
+    margin-left: 150px;
 }
 
 .ingredients {
