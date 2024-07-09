@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 /* text styles */
 
 body{
@@ -32,9 +36,34 @@ body{
     margin-left: 150px;
 }
 
-.ingredients {
+/*recipe pages*/
+
+.center {
+    width: 850px;
+    margin: 0 auto;
+}
+
+p {
+    background-color: rgb(124, 175, 220);
     font-size: 20px;
-    background-color: aquamarine;
+    font-family: Verdana;
+    width: 400px; 
+    height: 350px;
+    display: inline-block;
+    padding: 60px;
+    margin-right: 20px;
+}
+
+h2 {
+    font-family: Verdana;
+    border-bottom: 1px solid green;
+    padding: 10px
+}
+
+
+.ingredients {
+    font-family: Verdana;
+    font-size: 20px;
 }
 
 #alt {
